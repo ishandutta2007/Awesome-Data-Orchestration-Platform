@@ -28,7 +28,7 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
-- [SaaS/Hosted Platforms](#saas-products)
+- [SaaS/Hosted Platforms](#saashosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
 
@@ -40,63 +40,18 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-- **[Astronomer (Astro)](https://www.astronomer.io/)**  
-
-  Managed Apache Airflow platform with enterprise governance, multi-cloud deployment, observability, and operational tooling on top of the Airflow core.
-
-
-
-- **[Prefect Cloud](https://www.prefect.io/)**  
-
-  Managed service for the Prefect workflow orchestration framework, offering hybrid execution, observability, and Python-native dynamic workflows.
-
-
-
-- **[Dagster Cloud / Dagster+](https://dagster.io/)**  
-
-  Managed offering of the Dagster asset-oriented orchestrator, focused on software-defined assets, lineage, and modern data platform development.
-
-
-
-- **[Kestra](https://kestra.io/)**  
-
-  Declarative, YAML-based orchestration platform (open-source core + cloud) supporting scheduled and event-driven workflows with extensive plugins.
-
-
-
-- **[Control-M Cloud (BMC)](https://www.bmc.com/)**  
-
-  Enterprise workload automation and orchestration platform for complex, mission-critical job scheduling across hybrid environments.
-
-
-
-- **[Windmill](https://www.windmill.dev/)**  
-
-  Open-source and cloud workflow engine that turns scripts into production workflows and internal tools with auto-generated UIs.
-
-
-
-- **[Orkes Conductor](https://orkes.io/)**  
-
-  Managed service built on Netflix Conductor for durable, scalable microservice and workflow orchestration.
-
-
-
-- **[Amazon MWAA (Managed Workflows for Apache Airflow)](https://aws.amazon.com/mwaa/)**  
-
-  Fully managed Apache Airflow service on AWS for running data pipelines without managing the underlying infrastructure.
-
-
-
-- **[Flyte Cloud](https://flyte.org/)**  
-
-  Managed offering of the Flyte Kubernetes-native workflow orchestrator, strong for ML and data pipelines with typed interfaces.
-
-
-
-- **[Temporal Cloud](https://temporal.io/)**  
-
-  Managed service of the Temporal durable execution platform, ideal for long-running, fault-tolerant workflows and microservices.
+| Platform | Description | Pricing | Free Tier / Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[Astronomer (Astro)](https://www.astronomer.io/)** | Managed Apache Airflow platform with enterprise governance, multi-cloud deployment, observability, and operational tooling. | Starts at **$0.35/hour** (~$250/month) base for Developer tier deployments + compute resource consumption. | **14-day free trial** with **$20 in platform/compute credits** (no credit card required upfront). No permanent free tier. |
+| **[Prefect Cloud](https://www.prefect.io/)** | Managed workflow orchestration platform offering hybrid execution, observability, and Python-native dynamic workflows. | **Starter Plan**: **$100/month** (up to 3 users, 20 deployments, 75 hrs serverless compute); **Team Plan**: **$100/user/month**. | **Hobby Plan (Free Forever)**: 2 users, 5 deployments, 500 minutes of serverless compute/month, 7-day run history, and 625 API req/min. |
+| **[Dagster+ / Dagster Cloud](https://dagster.io/)** | Managed data orchestrator focused on software-defined assets, lineage, and modern platform development. | **Solo Plan**: **$10/month** base fee + $0.04/credit + $0.010/min serverless compute; **Starter Plan**: **$100/month** base fee + $0.035/credit. | **30-day free trial** with full feature access and included trial execution credits. No permanent free tier. |
+| **[Kestra Cloud](https://kestra.io/)** | Declarative, YAML-based orchestration platform supporting scheduled and event-driven workflows with 600+ plugins. | Free self-hosted OSS; Managed Cloud/Enterprise tiers require custom sales quote (~**$5–$10/month** on 1-click cloud templates like Railway). | **14 to 30-day trial** available upon demo request; permanent free open-source edition (Apache 2.0) with unlimited workflow executions. |
+| **[Control-M Cloud (BMC Helix)](https://www.bmc.com/)** | Enterprise workload automation and orchestration platform for complex, mission-critical job scheduling across hybrid environments. | **Starter Pack**: Starts at **$2,400/month** (billed annually) for full SaaS orchestration, SLA management, and 24x7 support. | **30-day free trial (POC)** with full functionality and pre-configured test workflow environments. No permanent free tier. |
+| **[Windmill](https://www.windmill.dev/)** | Open-source and cloud workflow engine and UI builder that turns scripts (Python, TypeScript, Go, Bash, SQL) into production workflows. | **Team Plan**: Starts at **$20/developer seat/month** ($10/operator seat/month) + compute usage ($0.001/execution overage). | **Community Plan (Free Forever)**: Includes up to 3 workspaces and 1,000 cloud executions/month (or unlimited executions if self-hosted OSS). |
+| **[Orkes Conductor](https://orkes.io/)** | Managed orchestration service built on Netflix Conductor for durable, high-throughput microservice and AI workflow execution. | Enterprise Cloud plans are quote-based via custom contract / AWS Marketplace SaaS listing; Developer Edition is completely free. | **Developer Edition (Free Forever)**: Free hosted sandbox at `developer.orkescloud.com` with no expiration and full Conductor OSS + AI tooling; **14-day trial** for Orkes Cloud. |
+| **[Amazon MWAA](https://aws.amazon.com/mwaa/)** | Fully managed Apache Airflow service on AWS for running data pipelines without managing underlying infrastructure. | Starts at **$0.49/hour** (~$353/month for US East) for Small environment + $0.055/hour per additional worker/scheduler + $0.10/GB-month metadata storage. | **No AWS Free Tier** (billed from first hour of creation). Free local development testing available via open-source `aws-mwaa-local-runner`. |
+| **[Flyte Cloud / Union.ai](https://flyte.org/)** | Managed Kubernetes-native workflow orchestrator tailored for data, ML, and AI pipelines with strong typing. | **Union Serverless**: Pay-as-you-go starting at **$0.12/CPU Core-hour**, **$0.029/GB-hour memory**, and **$0.71/GPU-hour** (T4); Managed Union Cloud from ~$2,500/month. | **Free trial** with **$30 in serverless compute credits** (GitHub login, no credit card required). No permanent free tier. |
+| **[Temporal Cloud](https://temporal.io/)** | Managed service of the Temporal durable execution platform for resilient, long-running workflows and microservices. | **Essentials Plan**: Starts at **$100/month** base (includes 1M Actions, 1 GB Active Storage, 40 GB Retained Storage; $50/M Actions thereafter); **Business**: Starts at **$500/month**. | **Free trial** with **$1,000 in evaluation credits** for new accounts (up to $6,000 credits for eligible startups). No permanent free tier. |
 
 
 
